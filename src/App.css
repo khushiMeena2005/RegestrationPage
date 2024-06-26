@@ -1,0 +1,88 @@
+body{
+   background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgb(220, 85, 204) 0%, rgb(55, 95, 165) 86%);
+    background-attachment: fixed;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#form{
+    width:400px;
+    margin:20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius:10px;
+    padding:30px;
+}
+
+h1{
+    text-align: center;
+  
+}
+
+
+#form button{
+    background-color: #792099;
+    color:white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding:10px;
+    margin:20px 0px;
+    cursor:pointer;
+    font-size:20px;
+    width:100%;
+}
+
+
+#form p{
+   font-size: 20px;
+   font-weight: 300;
+}
+.input-group{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size:20px;
+    margin-top:5px;
+    padding:10px;
+    border:1px solid rgb(34,193,195) ;
+}
+
+.input-group input:focus{
+    outline:0;
+}
+
+
+.welcomeGreeting{
+    width:50%;
+    height:300px;
+    margin:20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius:10px;
+    padding:50px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.welcomeGreeting h1{
+   
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.welcomeGreeting button{
+    background-color: #792099;
+    color:white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding:10px;
+    margin:70px 0px 0px 0px;
+    cursor:pointer;
+    font-size:20px;
+    width:100%;
+}
